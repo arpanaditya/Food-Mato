@@ -92,7 +92,7 @@ html {
 }
 
 #home h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
@@ -228,3 +228,25 @@ html {
 .center {
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:brown;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+      font-size: large;
+    font-family: 'Bree Serif', serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
