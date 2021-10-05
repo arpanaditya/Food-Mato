@@ -108,6 +108,7 @@ html {
 #services {
     margin: 34px;
     display: flex;
+    font-family: "Bree Serif", serif;
 }
 
 #services .box {
@@ -118,11 +119,44 @@ html {
     background: #f2f2f2;
     margin-bottom: 20px;
 }
-
-#services .box img {
-    height: 160px;
+#services .card_row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    text-align:center;
+  }
+  #services .column{
+     flex: 0 0 25%;
+  }
+  #services .card{
+  /*   max-width:35%; */
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #E8E8E8;
+    margin: 2rem;
+  }
+  #services .card:hover{
+    box-shadow: 0 0.4rem 1.8rem rgb(28 28 28 / 12%);
+  }
+  #services .card_image{
+    margin:1.5rem 1rem 0;
+  }
+  #services .card_content{
+       padding: 2rem;
+  }
+  #services .card-title{
+    font-size:2rem;
+    margin-bottom:0.5rem;
+  }
+#services  img {
+    /* height: 300px;
     margin: auto;
-    display: block;
+    display: block; */
+    /* max-width: 100%; */
+    height: auto;
 }
 
 
