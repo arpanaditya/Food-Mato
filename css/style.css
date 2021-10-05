@@ -325,6 +325,15 @@ html {
     clear: both;
 }
 
+.container{
+    margin: 10px 10px;
+    padding: 20px 20px
+}
+
+.container p{
+    margin: 10px 0px;
+}
+
 @media only screen and (min-width: 1280px) {
     .contain {
         width: 1200px;
